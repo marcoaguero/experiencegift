@@ -78,6 +78,7 @@ export default {
       info.dateCheckin = date._rawValue[0];
       info.dateCheckout = date._rawValue[1];
       info.adultsInfo = adults.value;
+      info.childrenInfo = children.value;
       info.roomInfo = rooms.value;
       console.log(info);
     };
